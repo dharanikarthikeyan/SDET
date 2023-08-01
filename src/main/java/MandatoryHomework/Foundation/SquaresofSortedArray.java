@@ -28,7 +28,7 @@ private void squareofsortedarray(int[] array_value_is) {
 	int arr[] = new int[2];//create a temporary array of 2 elements
 
 	for (int i = 0; i < array_value_is.length; i++) {
-	    System.out.println("Number: " + array_value_is[i] + " \tSquare: " + (int) Math.pow(array_value_is[i], 2));
+	    System.out.println( array_value_is[i] + " \tSquare: " + (int) Math.pow(array_value_is[i], 2));
 	    arr[0] = array_value_is[i];//add your number to your array pos 1
 	    arr[1] = (int) Math.pow(array_value_is[i], 2);//add the power to the 2ed position
 	    array.add(arr);//add your array to your list

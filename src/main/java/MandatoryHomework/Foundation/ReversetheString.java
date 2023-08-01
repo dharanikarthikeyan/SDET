@@ -4,6 +4,15 @@ import org.junit.Test;
 
 public class ReversetheString {
 	
+	 
+    @Test
+    public void test_1()
+    {
+    reversegivenstring("edoctee");
+    
+    
+}
+	
     void reversegivenstring(String str)
     {
     	char[] given_str = str.toCharArray();
@@ -13,12 +22,5 @@ public class ReversetheString {
     		System.out.println(given_str[i]);
     	}
     }
-    
-    @Test
-    public void test_1()
-    {
-    reversegivenstring("edoctee");
-    
-    
-}
+   
 }
