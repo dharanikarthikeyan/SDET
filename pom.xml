@@ -59,6 +59,11 @@
     <version>3.1.5</version>
 </dependency>
 
+  	<dependency>
+  		<groupId>SDET</groupId>
+  		<artifactId>SDET</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
   
