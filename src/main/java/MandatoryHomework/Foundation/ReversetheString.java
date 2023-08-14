@@ -8,7 +8,7 @@ public class ReversetheString {
     @Test
     public void test_1()
     {
-    reversegivenstring("edoctee");
+    reversegivenstring("shivanya");
     
     
 }

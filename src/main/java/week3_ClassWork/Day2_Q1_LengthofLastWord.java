@@ -25,8 +25,8 @@ public class Day2_Q1_LengthofLastWord {
 	public void LengthofLastWord(String str) {
 		String st = str.trim();
 		String lastIndexOf = st.substring(st.lastIndexOf(" "));
-		int length = lastIndexOf.length()-1;
-		System.out.println(length);
+		int LastWord_length = lastIndexOf.length()-1;
+		System.out.println(LastWord_length);
 		}
 			
 	}
