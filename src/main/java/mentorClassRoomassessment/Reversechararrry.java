@@ -25,9 +25,8 @@ public class Reversechararrry {
 		@Test
 		public void test_1()
 		{
-		
+			///char[] input = {'a', 'b', 'c', 'd'};
 			 reverse_array(new char[] {'a', 'b', 'c', 'd'});
-	        //char[] input = {'a', 'b', 'c', 'd'};
 
 	   }
 	public char[] reverse_array(char[] input)
