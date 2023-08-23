@@ -13,7 +13,7 @@
 	    <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.8.3</version>
+    <version>4.11.0</version>
 </dependency>
 
 <dependency>
@@ -21,7 +21,22 @@
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
 </dependency>
-
+<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.tomakehurst</groupId>
+			<artifactId>wiremock-jre8</artifactId>
+			<version>2.35.0</version>
+			<scope>test</scope>
+		</dependency>	
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
@@ -58,12 +73,6 @@
     <artifactId>extentreports</artifactId>
     <version>3.1.5</version>
 </dependency>
-
-<!--  	<dependency>-->
-<!--  		<groupId>SDET</groupId>-->
-<!--  		<artifactId>SDET</artifactId>-->
-<!--  		<version>0.0.1-SNAPSHOT</version>-->
-<!--  	</dependency>-->
   </dependencies>
   
   
